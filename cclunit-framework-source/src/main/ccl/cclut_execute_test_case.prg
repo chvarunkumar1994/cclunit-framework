@@ -121,7 +121,7 @@ if (curimage = "CCL")
 endif
 set modify maxvarlen 10000000
 
-set cclut_request->testCaseDirectory = "CCLSOURCE"
+set cclut_request->testCaseDirectory = "CCLUSERDIR"
 set cclut_request->testCaseFileName = validate(cclutRequest->testIncName, "")
 set cclut_request->testNamePattern = validate(cclutRequest->testSubroutineName, "")
 set cclut_request->optimizerMode = validate(cclutRequest->optimizerMode, "")
